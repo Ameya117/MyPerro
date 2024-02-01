@@ -4,7 +4,7 @@ const AboutCard = () => {
     return (
         <>
         <div className='hidden lg:block'>
-            <div className='rounder-lg flex flex-row bg-[#D9D9D9] h-36 md:h-48 lg:h-96 m-4 md:m-10 lg:m-16 rounded-lg '>
+            <div className='rounder-lg flex flex-row bg-[#D9D9D9] h-36 md:h-48 lg:h-[32rem] m-4 md:m-10 lg:m-16 rounded-lg'>
                 <div className=' flex flex-col justify-center items-center w-1/6 pl-2 mx-auto'>
                     <h1 className='orange-text font-bold text-md md:text-xl lg:text-5xl'>ABOUT</h1>
                     <h1 className='font-bold text-md md:text-xl lg:text-5xl'>US</h1>

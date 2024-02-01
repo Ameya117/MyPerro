@@ -14,7 +14,7 @@ const Dropdown = () => {
         <>           
             <div className="bg-[#C3C3C3] flex justify-end pr-4 lg:h-12">
                 <DropdownMenu>
-                    <div className="mx-4 font-bold text-sm my-auto">
+                    <div className="mx-4 font-bold text-sm my-auto md:text-2xl">
                         <DropdownMenuTrigger>Services <i className="fa-solid fa-chevron-down"></i></DropdownMenuTrigger>
                     </div>
                     <DropdownMenuContent>
@@ -27,7 +27,7 @@ const Dropdown = () => {
                     </DropdownMenuContent>
                 </DropdownMenu>
                 <DropdownMenu>
-                    <div className="mr-2 font-bold text-sm my-auto">
+                    <div className="mr-2 font-bold text-sm my-auto md:text-2xl">
                         <DropdownMenuTrigger>Reviews <i className="fa-solid fa-chevron-down"></i></DropdownMenuTrigger>
                     </div>
                     <DropdownMenuContent>
