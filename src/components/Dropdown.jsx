@@ -8,13 +8,12 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
-//TODO
 const Dropdown = () => {
     return (
-        <>           
+        <>
             <div className="bg-[#C3C3C3] flex justify-end pr-4 lg:h-12">
                 <DropdownMenu>
-                    <div className="mx-4 font-bold text-sm my-auto md:text-2xl">
+                    <div className="mx-4 font-bold text-xs my-auto md:text-xl">
                         <DropdownMenuTrigger>Services <i className="fa-solid fa-chevron-down"></i></DropdownMenuTrigger>
                     </div>
                     <DropdownMenuContent>
@@ -27,7 +26,7 @@ const Dropdown = () => {
                     </DropdownMenuContent>
                 </DropdownMenu>
                 <DropdownMenu>
-                    <div className="mr-2 font-bold text-sm my-auto md:text-2xl">
+                    <div className="mr-2 font-bold text-xs my-auto md:text-xl">
                         <DropdownMenuTrigger>Reviews <i className="fa-solid fa-chevron-down"></i></DropdownMenuTrigger>
                     </div>
                     <DropdownMenuContent>
