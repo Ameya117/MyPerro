@@ -17,7 +17,7 @@ const Review = () => {
                             <StarRatings />
                         </div>
                        
-                        <div className='grid place-content-center m-auto h-1/2 lg:w-2'>
+                        <div className='grid place-content-center m-auto h-1/2  lg:mx-auto lg:w-24'>
                             <ReviewCarousel />
                         </div>
                     </div>

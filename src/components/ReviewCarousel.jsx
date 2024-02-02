@@ -29,7 +29,7 @@ const ReviewCarousel = () => {
     ]
 
     return (
-        <div className='w-36 mb-auto md:w-96 lg:w-1/3 lg:mx-96 lg:h-1/2'> 
+        <div className='w-36 mb-auto md:w-96 lg:w-1/2 lg:mx-96 lg:h-1/2'> 
             <Carousel>
                 <CarouselPrevious />
                 <CarouselContent>
